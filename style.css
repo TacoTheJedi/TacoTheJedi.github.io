@@ -1,0 +1,50 @@
+html, body {
+	margin:0px;
+	padding:0px;
+	height:100%;
+}
+
+html {
+	font-size: 1em;
+    line-height: 1.4em;
+}
+
+body {
+    font-family:'Helvetica';
+    background:#94dee3;
+    color:#469be0;
+    margin:10px;
+}
+
+#container {
+	border: 1px solid #4655e0;
+    background:#7619e0;
+    width: 90%;
+    max-width:1000px;
+    margin: auto;
+}
+
+ul{
+    list-style:none;
+    padding-left:0px;
+}
+
+a{
+    color:#e01919;
+}
+
+a:hover{
+    color:#e07919;
+}
+
+figure{
+    margin:50px;
+}
+
+figure img{
+    width: 50%;
+}
+
+figcaption, footer{
+    font-size: 0.75em;
+}
