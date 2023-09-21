@@ -1,0 +1,44 @@
+html, body {  
+	margin:0px;
+	padding:0px;
+	height:100%;
+}
+
+html {
+	font-size: 1em;
+    line-height: 1.4em;
+}
+
+body {
+	font-family: 'Arial';
+    background:#172085;
+    color:#b51620;
+}
+
+div#container {
+    margin:auto;
+    margin-top:20px;
+    width:800px;
+    border:3px solid white;
+    padding:20px;
+    background:#6089f0;
+}
+
+header{
+    font-family: 'Luminari';
+    padding:10px;
+    background:#5e070b;
+}
+
+p{
+    border-style:dotted;
+    
+}
+
+
+footer{
+    font-size: 0.7em;
+    font-family:'Comic Sans MS';
+    padding: 2px;
+    background:#b36dcf;
+}
