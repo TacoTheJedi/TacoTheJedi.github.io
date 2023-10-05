@@ -14,14 +14,16 @@ body {
     background:#94dee3;
     color:#469be0;
     margin:10px;
+    padding:5px;
 }
 
 #container {
-	border: 1px solid #4655e0;
+    border: 1px solid #4655e0;
     background:#7619e0;
     width: 90%;
     max-width:1000px;
     margin: auto;
+    padding:5px;
 }
 
 ul{
