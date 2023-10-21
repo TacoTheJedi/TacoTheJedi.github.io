@@ -1,0 +1,47 @@
+html, body {
+	margin:0px;
+	padding:0px;
+	height:100%;
+}
+
+html {
+	font-size: 1em;
+    line-height: 1.4em;
+}
+
+body {
+	background-color:#03a3a3;
+    font-family: 'Creepster', cursive;
+}
+
+#container {
+	margin: auto;
+    text-align: center;
+    font-size: 2em;
+}
+
+#square{
+    display: block;
+    margin:auto;
+    margin-top: 20px;
+    line-height: 200px;
+    text-align: center;
+    font-size: 3em;
+    font-family: 'Inconsolata', cursive;
+    color: #fc030b;
+    height: 200px;
+    width: 400px;
+    background-color: #0313a3;
+    box-shadow: 5px 5px 10px 2px #010347;
+}
+
+#square:hover{
+    transform: scale(1.4);
+    transition: all 2s;
+}
+
+#result {
+    text-align: center;
+    font-size: 24px;
+    margin-top: 10px;
+}
