@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Assignment 7</title>
+	<link rel="stylesheet" href="css/style7.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Blaka+Ink&family=Bungee+Spice&family=Comfortaa:wght@300&family=Inconsolata&family=Nunito&family=Permanent+Marker&family=Pixelify+Sans&family=Questrial&family=Roboto:ital,wght@1,100&family=Yellowtail&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Blaka+Ink&family=Bungee+Spice&family=Comfortaa:wght@300&family=Creepster&family=Inconsolata&family=Nunito&family=Permanent+Marker&family=Pixelify+Sans&family=Questrial&family=Roboto:ital,wght@1,100&family=Yellowtail&display=swap" rel="stylesheet">
+    <script>
+       function whatever(){
+            var answers= [
+                "Tacos",
+                "Sushi", 
+                "Ramen", 
+                "Hot Pot", 
+                "Korean BBQ",
+                "Sarma", 
+                "Fried Chicken", 
+                "Burrito Madre", 
+                "Boba", 
+                "McDonalds", 
+                "We have food at home"
+            ]
+            var createAnswer = answers[Math.floor(Math.random() * answers.length)];
+            var result = document.querySelector("#result");
+            result.innerText = createAnswer;
+        }
+        function click() {
+            document.querySelector("#question").innerText = "Ask the bot about what you should eat";
+        }
+    </script>
+</head>
+
+<body>
+    <button id="square" onclick="click()"> Speak to the bot</button>
+    <div id="container">
+        <form>
+            <p id="question">Ask the bot about what you should eat</p>
+            <input type="text">
+            <input type="button" onclick="whatever()" value="Seal Your Fate">
+        </form>
+        <div id="result"></div>
+    </div>
+</body>
+</html>
