@@ -41,12 +41,13 @@ header{
 }
 
 @media all and (min-width: 769px) {
-	width: 725px;
     #container{
+        width: 725px;
         margin:auto;
         padding:0.7em;
-        border:4px solid yellow;
-        background-color: #f5c34e;
+        border: 4px solid orange;
+        background-color:#f5f50f;
+        border-style:dashed;
     }
     
     #one{
@@ -64,16 +65,18 @@ header{
 } 
 
 @media all and (min-width: 1024px) {	
-    width: 1000px;
     #container{
+        width: 1000px;
         margin:auto;
         padding:0.7em;
-        border:4px solid orange;
+        border: 4px solid orange;
+        background-color:#f5f50f;
+        border-style:dashed;
     }
     
     #one{
         float: left;
-        width: 500px;
+        width: 400px;
         margin-top:20px;
         padding:1em;
         background-color:#cc0606;
@@ -83,7 +86,7 @@ header{
     
     #two{
         float: right;
-        width: 500px;
+        width: 400px;
         margin-top:20px;
         padding:0.5em;
         background: url(../img/IMG_7368.jpg);
