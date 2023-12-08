@@ -1,0 +1,145 @@
+html, body {
+	margin:0px;
+	padding:0px;
+	height:100%;
+}
+
+html {
+	font-size: 1em;
+    line-height: 1.4em;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Star Wars', sans-serif;
+    color: yellow;
+}
+
+h2{
+    text-align: center;
+    color: yellow;
+}
+
+body {
+    padding: 20px;
+	background-image:url(https://media.giphy.com/media/FlodpfQUBSp20/giphy.gif); 
+    background-repeat:repeat; 
+    background-size: cover;
+    color:white;
+}
+
+img{
+    width: 75%;
+}
+
+.col-7{
+    position: relative;
+    right: 100px;
+    top:40px;
+}
+
+.one{
+    height: 130px;
+    background: green;
+    border-radius:10px;
+    padding: 5px;
+}
+
+.two{
+    height:200px;
+    background: green;
+    border-radius:10px;
+    padding: 5px;
+}
+
+.three{
+    height: 152px;
+    background: green;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.four{
+    height: 152px;
+    background: green;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.five{
+    height: 130px;
+    background: green;
+    border-radius: 10px;
+    padding: 5px; 
+}
+
+.six{
+    height: 110px;
+    background: green;
+    border-radius: 10px;
+    padding: 5px; 
+}
+
+.seven{
+    height: 110px;
+    background: green;
+    border-radius: 10px;
+    padding: 5px; 
+}
+
+.eight{
+    height: 110px;
+    background: green;
+    border-radius: 10px;
+    padding: 5px; 
+}
+
+.nine{
+    height: 130px;
+    background: green;
+    border-radius: 10px;
+    padding: 5px; 
+}
+
+.ten{
+    height: 85px;
+    background: green;
+    border-radius: 10px;
+    padding: 5px; 
+}
+
+footer{
+    font-size: 0.75em;
+}
+
+ul{
+    text-align: center;
+    list-style:none;
+    padding:5px;
+    font-family: 'Concert One', sans-serif;
+    font-family: 'Inter', sans-serif;
+}
+
+a{
+    color: yellow;
+    display:block;
+    text-decoration:none;
+    padding:4px;
+    border:1px solid black;
+    background:black;
+    border-radius: 10px;  
+}
+
+a:hover{
+    color: white;
+    display:block;
+    text-decoration:none;
+    padding:4px;
+    border:1px solid black;
+    background:black;
+    border-radius: 10px; 
+}
+
+li{
+    display:inline-block;
+}

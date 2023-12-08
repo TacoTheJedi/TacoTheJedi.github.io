@@ -1,0 +1,76 @@
+html, body {
+	margin:0px;
+	padding:3px;
+	height:100%;
+}
+
+html {
+	font-size: 1em;
+    line-height: 1.4em;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Star Wars', sans-serif;
+    color: yellow;
+}
+
+body {
+    padding: 20px;
+	background-image:url(https://media.giphy.com/media/FlodpfQUBSp20/giphy.gif); 
+    background-repeat:repeat; 
+    background-size: cover;
+    color:white;
+}
+
+.col-9{
+   width:40%;
+}
+
+h3{
+    text-align: center;
+}
+
+.col-3{
+    position: relative;
+    background: #424038;
+    left: 400px;
+    border-radius:10px;
+    height: 130px;
+}
+
+footer{
+    font-size: 0.75em;
+}
+
+ul{
+    text-align: center;
+    list-style:none;
+    padding:5px;
+    font-family: 'Concert One', sans-serif;
+    font-family: 'Inter', sans-serif;
+}
+
+a{
+    color: yellow;
+    display:block;
+    text-decoration:none;
+    padding:4px;
+    border:1px solid black;
+    background:black;
+    border-radius: 10px;  
+}
+
+a:hover{
+    color: white;
+    display:block;
+    text-decoration:none;
+    padding:4px;
+    border:1px solid black;
+    background:black;
+    border-radius: 10px; 
+}
+
+li{
+    display:inline-block;
+}

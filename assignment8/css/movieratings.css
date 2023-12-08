@@ -1,0 +1,141 @@
+html, body {
+	margin:0px;
+	padding:0px;
+	height:100%;
+}
+
+html {
+	font-size: 1em;
+    line-height: 1.4em;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Star Wars', sans-serif;
+    color: yellow;
+}
+
+h2{
+    text-align: center;
+    color: yellow;
+}
+
+body {
+    padding: 20px;
+	background-image:url(https://media.giphy.com/media/FlodpfQUBSp20/giphy.gif); 
+    background-repeat:repeat; 
+    background-size: cover;
+    color:white;
+}
+
+img{
+    width: 20%;
+}
+
+.p{
+    width: 50%;
+    padding: 10px;
+}
+
+.row{
+    height: 0px;
+}
+
+footer{
+    height: 10px;
+    font-size: 0.75em;
+    position: relative;
+    bottom: 2300px;
+}
+
+.col-7{
+    position: relative;
+    background: red;
+    left: 400px;
+    bottom: 410px;
+    padding: 5px;
+    border-radius:10px;
+}
+
+.first{
+    position:relative;
+    bottom: 300px;
+}
+
+.second{
+    position: relative;
+    bottom: 600px;
+}
+
+.third{
+    position: relative;
+    bottom: 900px;
+}
+
+.fourth{
+    position: relative;
+    bottom: 1200px;
+}
+
+.fifth{
+    position: relative;
+    bottom: 1400px;
+}
+
+.sixth{
+    position: relative;
+    bottom: 1700px;
+}
+
+.seventh{
+    position: relative;
+    bottom: 2000px;
+}
+
+.eighth{
+    position: relative;
+    bottom: 2300px;
+}
+
+.ninth{
+    position: relative;
+    bottom: 2600px;
+}
+
+.tenth{
+    height: 10px;
+    position: relative;
+    bottom: 2800px;
+}
+
+ul{
+    text-align: center;
+    list-style:none;
+    padding:5px;
+    font-family: 'Concert One', sans-serif;
+    font-family: 'Inter', sans-serif;
+}
+
+a{
+    color: yellow;
+    display:block;
+    text-decoration:none;
+    padding:4px;
+    border:1px solid black;
+    background:black;
+    border-radius: 10px;  
+}
+
+a:hover{
+    color: white;
+    display:block;
+    text-decoration:none;
+    padding:4px;
+    border:1px solid black;
+    background:black;
+    border-radius: 10px; 
+}
+
+li{
+    display:inline-block;
+}
